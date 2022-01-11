@@ -1,0 +1,7 @@
+module(
+  name = "factorial",
+  version = "1.0.0",
+  compatibility_level = 1,
+)
+
+bazel_dep(name = "googletest", version = "1.11.0")

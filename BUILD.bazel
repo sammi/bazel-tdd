@@ -1,0 +1,14 @@
+cc_library(
+  name = "factorial",
+  srcs = ["factorial.h"],
+)
+
+cc_test(
+  name = "factorial_test",
+  size = "small",
+  srcs = ["factorial_test.cc"],
+  deps = [
+    ":factorial",
+    "@googletest//:gtest_main",
+  ],
+)
