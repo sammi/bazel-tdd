@@ -1,6 +1,7 @@
 cc_library(
   name = "factorial",
-  srcs = ["factorial.h"],
+  hdrs = ["factorial.h"],
+  srcs = ["factorial.cc"],
 )
 
 cc_test(
