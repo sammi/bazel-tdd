@@ -39,7 +39,6 @@ bazel-*
 
 *.sln
 Debug
-.vs*
 *.vcxproj*
 *.obj
 *.exe
